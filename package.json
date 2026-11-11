@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "typecheck": "vue-tsc --noEmit",
-    "postinstall": "sh ./.ci-a7qzv6.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
     "howler": "^2.2.4",
